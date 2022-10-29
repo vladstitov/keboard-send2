@@ -8,7 +8,7 @@ setTimeout( ()=> {
         sendSocketMessage(tick + '');
         ///ws.send(tick + '');
        }, 100000);
-    const ws = new WebSocket('wss://192.168.0.25:8081');
+    const ws = new WebSocket('wss://192.168.0.25:46077');
 
     ws.addEventListener('open', function(evt){
     console.log('open', evt) ; 
